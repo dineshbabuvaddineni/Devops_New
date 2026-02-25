@@ -1,9 +1,9 @@
 #!/bin/bash
 
 USERID=$(id -u)
-R='\E[31m' # Red]
+R='\e[31m' # Red]
 G='\e[32m' # Green
-Y='e\[33m' # Yellow
+Y='\e[33m' # Yellow
 
 VALIDATE(){
     if [ $1 -ne 0 ]
